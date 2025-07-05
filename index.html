@@ -1,5 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
 <h1>Kultur im Koffer</h1>
 
 <em>Aufsuchende Kulturarbeit</em>
 
+
+<h1>Kontakt</h1>
+
+
+
+<section class="contact-section">
+  <div class="contact-intro">
+    <h2 class="contact-title">Kontakt</h2>
+    <p class="contact-description">
+      Um mir eine Nachricht zukommen zu lassen, füllen Sie bitte das Formular aus.
+      Ich werde dann mit Ihnen Kontakt aufnehmen.
+    </p>
+  </div>
+
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="1829fffb-db76-4c1d-b910-126f8ac0f5b3" />
+    <input type="hidden" name="subject" value="Kontaktformular kultur-im-koffer.de" />
+    <input type="hidden" name="from_name" value="kultur-im-koffer.de" />
+    <input type="hidden" name="redirect" value="https://kopp.github.io/kultur-im-koffer/anfrage_gesendet.html" />
+
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Vorname Name" type="text" required />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">E-Mail Adresse</label>
+        <input id="email" name="email" class="form-input" placeholder="ihre-adresse@email.de" type="email" required />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Telefonnummer (optional)</label>
+        <input id="phone" name="phone" class="form-input" placeholder="optional" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Ihre Nachricht</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Ihre Nachricht"></textarea>
+      </div>
+    </div>
+    <button class="form-submit" type="submit">Absenden</button>
+  </form>
+
+</section>
+
+
 <p>Alle Inhalte dieser Seite stehen unter <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons BY-NC-ND 4.0 Lizenz</a>.</p>
+
+</body>

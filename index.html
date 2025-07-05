@@ -1,59 +1,171 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+	<head>
+		<title>Kultur im Koffer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<h1>Kultur im Koffer</h1>
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
 
-<em>Aufsuchende Kulturarbeit</em>
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Kultur im Koffer</span>
+								</a>
 
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Navigation</a></li>
+									</ul>
+								</nav>
 
-<h1>Kontakt</h1>
+						</div>
+					</header>
 
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Navigation</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="konzept.html">Konzept</a></li>
+							<li><a href="naturdruck.html">Naturselbstdruck</a></li>
+							<li><a href="literatur.html">Literatur</a></li>
+						</ul>
+					</nav>
 
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Kultur im Koffer</h1>
 
-<section class="contact-section">
-  <div class="contact-intro">
-    <h2 class="contact-title">Kontakt</h2>
-    <p class="contact-description">
-      Um mir eine Nachricht zukommen zu lassen, füllen Sie bitte das Formular aus.
-      Ich werde dann mit Ihnen Kontakt aufnehmen.
-    </p>
-  </div>
+									<p>Kultur im Koffer verfolgt das Konzept der <em>Aufsuchenden Kulturarbeit</em>. Das bedeutet: Wir bringen alles was wir für die Kulturvermittlung brauchen an Ihren Wunschort. Das kann ein Kindergarten, eine Schule, ein Altenheim, ein Grillplatz im Wald, Ihr Wohnzimmer, ... sein.</p>
 
-  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+							</header>
 
-    <input type="hidden" name="access_key" value="1829fffb-db76-4c1d-b910-126f8ac0f5b3" />
-    <input type="hidden" name="subject" value="Kontaktformular kultur-im-koffer.de" />
-    <input type="hidden" name="from_name" value="kultur-im-koffer.de" />
-    <input type="hidden" name="redirect" value="https://kopp.github.io/kultur-im-koffer/anfrage_gesendet.html" />
+							<section class="tiles">
+								<article class="style3">
+									<span class="image">
+										<img src="images/logo_gross.png" alt="Konzept" />
+									</span>
+									<a href="konzept.html">
+										<h2>Das Konzept</h2>
+										<div class="content">
+											<p>Was Aufsuchende Kulturarbeit bedeutet.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style1">
+									<span class="image">
+										<img src="images/naturdruck.jpg" alt="Naturselbstdruck" />
+									</span>
+									<a href="naturdruck.html">
+										<h2>Natur&shy;selbst&shy;druck</h2>
+										<div class="content">
+											<p>Wir drucken mit Ihnen Blätter, Fische und worauf Sie sonst Lust haben.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/literatur_square.jpg" alt="Literatur" />
+									</span>
+									<a href="literatur.html">
+										<h2>Literatur</h2>
+										<div class="content">
+											<p>Wir lesen für Sie und mit Ihnen.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Tempus</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style5">
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Aliquam</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style6">
+									<span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span>
+									<a href="generic.html">
+										<h2>Veroeros</h2>
+										<div class="content">
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</a>
+								</article>
+							</section>
+						</div>
+					</div>
 
-    <div class="form-group-container">
-      <div class="form-group">
-        <label for="name" class="form-label">Name</label>
-        <input id="name" name="name" class="form-input" placeholder="Vorname Name" type="text" required />
-      </div>
-      <div class="form-group">
-        <label for="email" class="form-label">E-Mail Adresse</label>
-        <input id="email" name="email" class="form-input" placeholder="ihre-adresse@email.de" type="email" required />
-      </div>
-      <div class="form-group">
-        <label for="phone" class="form-label">Telefonnummer (optional)</label>
-        <input id="phone" name="phone" class="form-input" placeholder="optional" type="text" />
-      </div>
-      <div class="form-group">
-        <label for="message" class="form-label">Ihre Nachricht</label>
-        <textarea class="form-textarea" id="message" name="message" placeholder="Ihre Nachricht"></textarea>
-      </div>
-    </div>
-    <button class="form-submit" type="submit">Absenden</button>
-  </form>
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Kontakt</h2>
+								<form action="https://api.web3forms.com/submit" method="POST">
 
-</section>
+									<input type="hidden" name="access_key" value="1829fffb-db76-4c1d-b910-126f8ac0f5b3" />
+									<input type="hidden" name="subject" value="Kontaktformular kultur-im-koffer.de" />
+									<input type="hidden" name="from_name" value="kultur-im-koffer.de" />
+									<input type="hidden" name="redirect" value="https://kopp.github.io/kultur-im-koffer/anfrage_gesendet.html" />
 
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" required />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="E-Mail" required />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Ihre Nachricht" required></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Abschicken" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Kultur im Koffer</li>
+								<li>Die Inhalte dieser Seite stehen unter <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons BY-NC-ND 4.0 Lizenz</a></li>
+								<li>Das Design basiert auf <a href="https://html5up.net/phantom">Phantom</a> von <a href="http://html5up.net">HTML5 UP</a> unter CC BY 3.0 Lizenz</li>
+							</ul>
+						</div>
+					</footer>
 
-<p>Alle Inhalte dieser Seite stehen unter <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons BY-NC-ND 4.0 Lizenz</a>.</p>
+			</div>
 
-</body>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

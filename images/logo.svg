@@ -1,0 +1,29 @@
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hintergrund des Koffers -->
+  <rect x="20" y="40" width="160" height="90" rx="10" ry="10" fill="#8B4513" stroke="#5A2D0C" stroke-width="3"/>
+
+  <!-- Deckel des Koffers (leicht geöffnet) -->
+  <path d="M20 40 Q30 20 100 20 T180 40 L180 50 L20 50 Z" fill="#A0522D" stroke="#5A2D0C" stroke-width="3"/>
+
+  <!-- Griff des Koffers (klarer definiert) -->
+  <rect x="75" y="15" width="50" height="15" rx="7" ry="7" fill="#5A2D0C" stroke="#3D2008" stroke-width="2"/>
+  <path d="M75 22 C75 18 80 15 85 15 L115 15 C120 15 125 18 125 22 L125 30 L75 30 Z" fill="#5A2D0C"/>
+
+
+  <!-- Schnallen des Koffers -->
+  <rect x="40" y="120" width="10" height="15" rx="2" ry="2" fill="#C0C0C0"/>
+  <rect x="150" y="120" width="10" height="15" rx="2" ry="2" fill="#C0C0C0"/>
+
+  <!-- Inhalt: Buch (größer) -->
+  <rect x="40" y="60" width="45" height="55" rx="3" ry="3" fill="#4682B4" stroke="#2C5370" stroke-width="1"/>
+  <rect x="42" y="62" width="41" height="51" fill="#F0F8FF"/> <!-- Seiten des Buches -->
+
+  <!-- Inhalt: Bild (größer) -->
+  <rect x="100" y="60" width="55" height="45" rx="3" ry="3" fill="#8B4513" stroke="#5A2D0C" stroke-width="1"/>
+  <rect x="103" y="63" width="49" height="39" fill="#ADD8E6"/> <!-- Leinwand des Bildes -->
+  <circle cx="127" cy="82" r="12" fill="#FFD700"/> <!-- Einfaches Element im Bild -->
+
+  <!-- Schattendetails für den Koffer -->
+  <path d="M20 40 L20 130 L25 130 L25 45 L20 40 Z" fill="rgba(0,0,0,0.1)"/>
+  <path d="M180 40 L180 130 L175 130 L175 45 L180 40 Z" fill="rgba(0,0,0,0.1)"/>
+</svg>

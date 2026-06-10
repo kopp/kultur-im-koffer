@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Kultur im Koffer",
+  "short_name": "Kultur im Koffer",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

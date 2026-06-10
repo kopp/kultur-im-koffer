@@ -41,15 +41,15 @@
 					</header>
 
 				<!-- Menu -->
-					<nav id="menu">
-						<h2>Navigation</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="konzept.html">Konzept</a></li>
-							<li><a href="naturdruck.html">Naturselbstdruck</a></li>
-							<li><a href="literatur.html">Literatur</a></li>
-						</ul>
-					</nav>
+						<nav id="menu"></nav>
+						<script>
+							fetch('nav.html')
+								.then(function(response) { return response.text(); })
+								.then(function(html) {
+									document.getElementById('menu').outerHTML = html;
+								})
+								.catch(console.error);
+						</script>
 
 				<!-- Main -->
 					<div id="main">
